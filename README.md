@@ -26,6 +26,12 @@ ALT + SHIFT + a   ->   SHIFT + HOME         (Select to beginning of line)
 
 ALT + f           ->   END                  (Cursor to end of line)
 ALT + SHIFT + f   ->   SHIFT + END          (Select to end of line)
+
+ALT + m           ->   DEL                  (Delete one character)
+ALT + n           ->   BACKSPACE            (Backspace one character)
+
+ALT + u           ->   CTRL + z             (Undo)
+ALT + SHIFT + u   ->   CTRL + y             (Redo)
 ```
 
 # Usage
