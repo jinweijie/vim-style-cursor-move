@@ -6,14 +6,14 @@ The keybinding details are as follows:
 
 ```
 ALT + h           ->   LEFT                 (Cursor left one character)
-ALT + CTRL  + h   ->   CTRL + LEFT          (Cursor left per word)
+ALT + b           ->   CTRL + LEFT          (Cursor left per word)
 ALT + SHIFT + h   ->   SHIFT + LEFT         (Select one character)
-ALT + CTRL  + h   ->   SHIFT + CTRL + LEFT  (Select per word)
+ALT + SHIFT + b   ->   SHIFT + CTRL + LEFT  (Select per word)
 
 ALT + l           ->   RIGHT                (Cursor right one character)
-ALT + CTRL  + l   ->   CTRL + RIGHT         (Cursor right per word)
+ALT + w           ->   CTRL + RIGHT         (Cursor right per word)
 ALT + SHIFT + l   ->   SHIFT + RIGHT        (Select one character)
-ALT + CTRL  + l   ->   SHIFT + CTRL + RIGHT (Select per word)
+ALT + SHIFT + w   ->   SHIFT + CTRL + RIGHT (Select per word)
 
 ALT + k           ->   UP                   (Cursor up line)
 ALT + SHIFT + k   ->   SHIFT + UP           (Select one line)
