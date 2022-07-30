@@ -40,3 +40,13 @@ ALT + SHIFT + u   ->   CTRL + y             (Redo)
 2. Clone this repository.
 3. Execute `vim-style-key-binding`.
 4. If you would like to execute the script on startup on Windows, add the shortcut of the script to startup folder.
+
+# Uninstall
+
+If you don't want the binding any more, just don't run the script or remove it from startup folder. :)
+
+## Donate
+
+If you would like to support my development, feel free to buy me a coffee, it makes a big difference! Thanks.
+
+<a href="https://www.buymeacoffee.com/jinweijie" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee"></a>
