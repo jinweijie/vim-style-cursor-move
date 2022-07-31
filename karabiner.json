@@ -1,0 +1,289 @@
+{
+  "title": "Karabiner Map Left Option plus hjkl to Arrows and wbmnu keys",
+  "rules": [
+    {
+      "description": "Karabiner Map Left Option plus hjkl to Arrows and wbmnu keys",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_alt"
+              ]
+            },
+            "key_code": "w"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "right_arrow",
+              "modifiers": [
+                "right_alt"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_alt"
+              ]
+            },
+            "key_code": "b"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "left_arrow",
+              "modifiers": [
+                "left_alt"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_alt",
+                "left_shift"
+              ]
+            },
+            "key_code": "w"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "right_arrow",
+              "modifiers": [
+                "left_alt",
+                "left_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_alt",
+                "left_shift"
+              ]
+            },
+            "key_code": "b"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "left_arrow",
+              "modifiers": [
+                "left_alt",
+                "left_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_alt"
+              ]
+            },
+            "key_code": "u"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "z",
+              "modifiers": [
+                "left_gui"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_alt",
+                "left_shift"
+              ]
+            },
+            "key_code": "u"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "z",
+              "modifiers": [
+                "left_gui",
+                "left_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_alt"
+              ]
+            },
+            "key_code": "a"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "left_arrow",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_alt"
+              ]
+            },
+            "key_code": "f"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "right_arrow",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_alt"
+              ]
+            },
+            "key_code": "n"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "delete_or_backspace"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_alt"
+              ]
+            },
+            "key_code": "m"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "delete_or_backspace",
+              "modifiers": [
+                "fn"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
