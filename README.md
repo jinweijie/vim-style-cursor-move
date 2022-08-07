@@ -2,7 +2,7 @@
 
 Configure the cursor movement style like vim for all major OS platforms by using Autohotkey for Windows, Karabiner for MacOS, and Autokey for Linux . This is extremely useful for moving the cursor around in a text editor, or browser for some selection when you just want a lightweight cursor movement experience.
 
-The keybinding details are as follows:
+The keybinding details are as following:
 
 ```
 ALT + h           ->   LEFT                 (Cursor left one character)
