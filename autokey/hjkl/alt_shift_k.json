@@ -1,0 +1,31 @@
+{
+    "type": "script",
+    "description": "alt_shift_k",
+    "store": {},
+    "modes": [
+        3
+    ],
+    "usageCount": 0,
+    "prompt": false,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [
+            "<alt>",
+            "<shift>"
+        ],
+        "hotKey": "k"
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
+}
