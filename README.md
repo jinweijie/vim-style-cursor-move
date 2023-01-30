@@ -36,7 +36,9 @@ ALT + SHIFT + u   ->   CTRL + y             (Redo)
 
 1. Install [Autohotkey](https://www.autohotkey.com/).
 2. Clone this repository.
-3. Execute `./windows/vim-style-key-binding.ahk`.
+3. Execute AHK script.  
+   * If you are using AHK 1.x, execute `./windows/vim-style-key-binding-1x.ahk`.
+   * If you are using AHK 2.x, execute `./windows/vim-style-key-binding-2x.ahk`.
 4. If you would like to execute the script on startup on Windows, add the shortcut of the script to startup folder.
 
 If you don't want the binding anymore, just don't run the script or remove it from startup folder. :)
